@@ -1,0 +1,58 @@
+
+#services{
+    width:80rem;
+}
+h3{
+    margin-top:2rem;
+}
+#mainlist{
+    margin-bottom:5rem;
+}
+
+.itemList{
+    list-style-type:circle;
+    list-style-position: inside;
+    margin-left:23rem;
+}
+span{
+    color:#ff0000;
+}
+.ui-widget-content a{
+    color:black;
+    font-style: italic;
+}
+.img1{
+    width:30rem;
+    margin-left:45rem;
+    display: block;
+}
+.secondService_atag{
+    margin-top:3rem;
+    margin-left:57rem;
+}
+
+.img2{
+    width:50rem;
+    margin-left:10rem;
+}
+
+.img3{
+    width:26rem;
+
+}
+.img3b{
+    width:26rem;
+    
+}
+.fourthService_atag{
+    margin-right:2rem;
+}
+.img4{
+    width:76rem;
+}
+.img5{
+    height:15rem;
+}
+.fifthService_atag{
+    margin-bottom:1rem;
+}

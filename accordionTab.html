@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion and Tab</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/eggplant/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="accordionTab.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="accordionTab.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- adjust for bootstraps -->
+        <div class="row">
+            <div class="col">
+                <div id="services">
+                    <h3>First Service</h3>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos.</p>
+                
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremquedignissimos.</p>
+                
+                        <div id="mainlist">
+                            <ul class="itemList">
+                                <li><a href="#firstItem">item 1</a></li>
+                                <li><a href="#secondItem">item 2</a></li>
+                                <li><a href="#thirdItem">item 3</a></li>
+                                <li><a href="#fourthItem">item 4</a></li>
+                            </ul>
+                            <!-- itemList -->
+                            <div id="firstItem">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum,voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos.</p>                         
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremquedignissimos.</p>
+                                <a class=" btn btn-primary" href="/requestservice">Select Service</a>
+                            </div>
+                            <!-- firstItem -->
+                            <div id="secondItem">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremquedignissimos.</p>
+                                <a class=" btn btn-primary" href="/requestservice">Select Service</a>
+                            </div>
+                            <!-- secondItem -->
+                            <div id="thirdItem">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremquedignissimos.</p>
+                                <a class=" btn btn-primary" href="/requestservice">Select Service</a>
+                            </div>
+                            <!-- thirdItem -->
+                            <div id="fourthItem">
+                                <img class="img5" src="images/img5.jpg" alt="Color Animation">
+                                <p>Not only will you view the photo after clicking the button below. You will see some cool <span class="color">Color Animation</span>.</p>
+                                <button type="button" class="btn btn-lg btn btn-success">Click to view photo!</button>
+                                <button type="button" class="hide_btn btn-lg btn btn-danger">Hide this photo!</button>
+                            </div>
+
+
+                        </div>
+                        <!-- mainlist -->
+                    </div>
+                    <!-- First -->
+                
+                    <h3>Second Service</h3>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos.</p>
+                        <img class="img1" src="images/img1.jpg" alt="Second Service">
+                        <a class="secondService_atag btn btn-primary" href="/requestservice">Select Service</a>
+                    </div>
+                    <!-- Second -->
+                
+                    <h3>Third Service</h3>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum,voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos.</p>
+                        <img class="img2" src="images/img2.jpg" alt="Third Service">
+                        <a class="thirdService_atag btn btn-primary" href="/requestservice">Select Service</a>
+                    </div>
+                    <!-- Third -->
+                
+                    <h3>Fourth Service</h3>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum,voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos.</p>
+                        <img class="img3" src="images/img3.jpg" alt="Fourth Service">
+                        <a class="fourthService_atag btn btn-primary" href="/requestservice">Select Service</a>
+                        <img class="img3b" src="images/img3.jpg" alt="Fourth Service">
+                        <a class="fourthService_atag btn btn-primary" href="/requestservice">Select Service</a>
+                    </div>
+                    <!-- Fourth -->
+                
+                    <h3>Fifth Service</h3>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit rem voluptate ipsa? Quasi nesciunt et illum, voluptatibus, eos asperiores enim, aliquid eaque amet perspiciatis ipsa porro? Recusandae, doloremque dignissimos.</p>
+                        <a class="fifthService_atag btn btn-primary" href="/requestservice">Select Service</a>
+                        <img class="img4" src="images/img4.jpg" alt="Fifth Service">
+                        
+                    </div>
+                    <!-- Fifth-->
+                
+                </div>
+                <!-- services -->
+            </div>
+        </div>
+    </div>
+    <!-- container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
